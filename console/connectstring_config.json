@@ -1,0 +1,23 @@
+{
+  "3a100ddd-71d9-543e-6c8c-311c57ecf596": {
+    "Database": "2300104684",
+    "Host": "103.61.122.194",
+    "Password": "Minvoice@123",
+    "Port": "5432",
+    "User ID": "minvoice"
+  },
+  "3a0bcb64-5122-3de9-ad4c-509eafef8685": {
+    "Database": "Master_20220515",
+    "Host": "103.61.122.194",
+    "Password": "Minvoice@123",
+    "Port": "5432",
+    "User ID": "minvoice"
+  },
+  "3a11f327-5fea-bb32-b4bb-6350b9eb3efd": {
+    "Database": "Master_20240401",
+    "Host": "103.61.122.194",
+    "Password": "Minvoice@123",
+    "Port": "5432",
+    "User ID": "minvoice"
+  }
+}

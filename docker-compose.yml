@@ -1,0 +1,19 @@
+version: '3.10'
+
+services:
+  api:
+    build: ./api
+    command: python3 -m flask run --host 0.0.0.0 --port 5000
+    volumes:
+      - ./api:/app
+    ports:
+      - "5001:5000"
+
+  console:
+    build: ./console
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./console:/app
+    extra_hosts: 
+      - "host.docker.internal:host-gateway"
