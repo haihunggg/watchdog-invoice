@@ -8,3 +8,5 @@ class Config:
     DATABASE_URI = f'postgresql://{user}:{encoded_password}@103.61.122.194:5432/MinvoiceCloud'
     ERROR_INVOICE_FOLDER = "error_invoice"
     APP_LOG_FOLDER = "applog"
+    LOOP_JOB_INTERVAL = 30
+    JOB_TIMEOUT = 300

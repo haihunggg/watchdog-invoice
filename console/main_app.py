@@ -1,5 +1,5 @@
 import json
-
+import sys
 import psycopg2
 import pandas as pd
 import time
@@ -12,9 +12,12 @@ from constants import *
 from datetime import datetime as dt
 import logging
 from telegram_ import send_telegram_message
+from utils import file_utils
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
+
+is_use_sql_error = '--error' in sys.argv
 
 os.makedirs(Config.APP_LOG_FOLDER, exist_ok=True)
 
@@ -52,14 +55,21 @@ def get_warnings():
         count = 0
         db_errors = []
 
-        with open("resources/sql/querry.sql") as sql_file:
+        if is_use_sql_error:
+            filename = 'query_error.sql'
+        else:
+            filename = 'query.sql'
+
+        with open(f"resources/sql/{filename}") as sql_file:
             sending_tax = sql_file.read()
+
 
         try:
             with open("connectstring_config.json") as fo:
                 ans = json.load(fo)
 
             for tenant_id, db in ans.items():
+                querry_error_sending_tax = None
                 database = db["Database"]
                 user = db["User ID"]
                 password = db["Password"]
@@ -72,8 +82,12 @@ def get_warnings():
                     
                     engine = create_engine(DATABASE_URI)
                     with engine.connect() as conn:
-                        querry_sending_tax = sending_tax.replace('?', tenant_id)
-                        df = pd.read_sql_query(querry_sending_tax, conn)
+                        querry_error_sending_tax = sending_tax.replace('?', tenant_id)
+                        if is_use_sql_error:
+                            checkpoint = file_utils.get_checkpoint()
+                            querry_error_sending_tax = querry_error_sending_tax.replace(
+                                "checkpoint", dt.fromtimestamp(checkpoint).isoformat())
+                        df = pd.read_sql_query(querry_error_sending_tax, conn)
                         result.append(df)
                 except Exception as e:
                     db_errors.append(DATABASE_URI)
@@ -173,9 +187,11 @@ try:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
-        send_telegram_message('6720464969', file_path)
+        send_telegram_message('5620188377', file_path)
 
     logger.info("done")
+    with open(os.path.join(Config.APP_LOG_FOLDER, 'done.txt'), mode='w') as f:
+        f.write(dt.now().isoformat())
 
 except (Exception, psycopg2.Error) as error:
     print("Error while connecting to PostgreSQL", error)
