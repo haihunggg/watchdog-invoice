@@ -5,6 +5,6 @@ SELECT
 FROM "public"."AbpTenantConnectionStrings" a 
 JOIN "AbpTenants" b 
 on b."Id" = a."TenantId"
-Limit 3;
+limit 5;
 
 

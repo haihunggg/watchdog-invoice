@@ -150,3 +150,18 @@ postgresql://minvoice:Minvoice%40123@103.61.122.194:5432/Master_20240401
 2024-08-06 17:15:51,076 - INFO - main_app.py:177 - error db number: 0
 
 2024-08-06 17:15:51,083 - INFO - main_app.py:192 - done
+2024-08-07 13:35:43,436 - INFO - main_app.py:172 - Starting the application
+2024-08-07 13:44:53,446 - INFO - main_app.py:172 - Starting the application
+2024-08-07 15:43:48,935 - INFO - main_app.py:172 - Starting the application
+2024-08-07 15:44:24,126 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-07 15:44:24,132 - INFO - main_app.py:192 - done
+2024-08-07 15:44:55,843 - INFO - main_app.py:172 - Starting the application
+2024-08-07 15:45:31,257 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-07 15:45:32,881 - INFO - main_app.py:192 - done
+2024-08-07 15:46:04,857 - INFO - main_app.py:172 - Starting the application
+2024-08-07 15:52:06,757 - INFO - main_app.py:172 - Starting the application
+2024-08-07 15:52:42,241 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-07 15:52:42,267 - INFO - main_app.py:192 - done
