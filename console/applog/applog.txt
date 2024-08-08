@@ -165,3 +165,163 @@ postgresql://minvoice:Minvoice%40123@103.61.122.194:5432/Master_20240401
 2024-08-07 15:52:42,241 - INFO - main_app.py:177 - error db number: 0
 
 2024-08-07 15:52:42,267 - INFO - main_app.py:192 - done
+2024-08-08 21:26:07,141 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:26:43,642 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:26:43,645 - INFO - main_app.py:192 - done
+2024-08-08 21:27:14,727 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:37:12,247 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:37:48,665 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:37:48,667 - INFO - main_app.py:192 - done
+2024-08-08 21:38:19,574 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:38:56,103 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:38:56,105 - INFO - main_app.py:192 - done
+2024-08-08 21:39:26,965 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:40:03,170 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:40:03,174 - INFO - main_app.py:192 - done
+2024-08-08 21:40:34,042 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:41:10,707 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:41:10,710 - INFO - main_app.py:192 - done
+2024-08-08 21:41:41,550 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:42:17,863 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:42:17,867 - INFO - main_app.py:192 - done
+2024-08-08 21:42:51,399 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:43:27,946 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:43:27,950 - INFO - main_app.py:192 - done
+2024-08-08 21:43:58,808 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:44:35,228 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:44:35,229 - INFO - main_app.py:192 - done
+2024-08-08 21:45:06,085 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:45:42,962 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:45:42,966 - INFO - main_app.py:192 - done
+2024-08-08 21:46:13,822 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:46:50,392 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:46:50,395 - INFO - main_app.py:192 - done
+2024-08-08 21:47:21,245 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:47:57,805 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:47:57,806 - INFO - main_app.py:192 - done
+2024-08-08 21:48:28,621 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:49:05,081 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:49:05,084 - INFO - main_app.py:192 - done
+2024-08-08 21:49:35,959 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:50:12,333 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:50:12,336 - INFO - main_app.py:192 - done
+2024-08-08 21:50:43,207 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:51:19,670 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:51:19,672 - INFO - main_app.py:192 - done
+2024-08-08 21:51:50,515 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:52:27,043 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:52:27,046 - INFO - main_app.py:192 - done
+2024-08-08 21:52:57,952 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:53:34,467 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:53:34,471 - INFO - main_app.py:192 - done
+2024-08-08 21:54:05,668 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:54:41,761 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:54:41,762 - INFO - main_app.py:192 - done
+2024-08-08 21:55:12,914 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:55:49,320 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:55:49,322 - INFO - main_app.py:192 - done
+2024-08-08 21:56:20,445 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:56:57,001 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:56:57,003 - INFO - main_app.py:192 - done
+2024-08-08 21:57:28,127 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:58:04,596 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:58:04,600 - INFO - main_app.py:192 - done
+2024-08-08 21:58:35,760 - INFO - main_app.py:172 - Starting the application
+2024-08-08 21:59:12,184 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 21:59:12,188 - INFO - main_app.py:192 - done
+2024-08-08 21:59:43,370 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:00:20,082 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:00:20,085 - INFO - main_app.py:192 - done
+2024-08-08 22:00:51,215 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:01:27,715 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:01:27,716 - INFO - main_app.py:192 - done
+2024-08-08 22:01:58,785 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:02:35,386 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:02:35,391 - INFO - main_app.py:192 - done
+2024-08-08 22:03:06,513 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:03:42,888 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:03:42,889 - INFO - main_app.py:192 - done
+2024-08-08 22:04:13,911 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:04:50,469 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:04:50,474 - INFO - main_app.py:192 - done
+2024-08-08 22:05:21,539 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:05:58,173 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:05:58,176 - INFO - main_app.py:192 - done
+2024-08-08 22:06:29,316 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:07:05,827 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:07:05,829 - INFO - main_app.py:192 - done
+2024-08-08 22:07:36,934 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:08:13,525 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:08:13,528 - INFO - main_app.py:192 - done
+2024-08-08 22:08:44,590 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:09:21,246 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:09:21,249 - INFO - main_app.py:192 - done
+2024-08-08 22:09:52,407 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:10:28,926 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:10:28,930 - INFO - main_app.py:192 - done
+2024-08-08 22:11:00,017 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:11:36,669 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:11:36,671 - INFO - main_app.py:192 - done
+2024-08-08 22:12:07,800 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:12:43,961 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:12:43,962 - INFO - main_app.py:192 - done
+2024-08-08 22:13:14,956 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:13:51,064 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:13:51,065 - INFO - main_app.py:192 - done
+2024-08-08 22:14:21,965 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:31:05,869 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:31:42,145 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:31:42,146 - INFO - main_app.py:192 - done
+2024-08-08 22:32:13,344 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:32:49,895 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:32:49,896 - INFO - main_app.py:192 - done
+2024-08-08 22:33:20,914 - INFO - main_app.py:172 - Starting the application
+2024-08-08 22:33:57,357 - INFO - main_app.py:177 - error db number: 0
+
+2024-08-08 22:33:57,359 - INFO - main_app.py:192 - done
+2024-08-08 22:34:28,513 - INFO - main_app.py:172 - Starting the application
+2024-08-08 23:17:37,630 - INFO - main_app.py:178 - Starting the application
+2024-08-08 23:18:20,153 - INFO - main_app.py:183 - error db number: 0
+
+2024-08-08 23:18:20,155 - INFO - main_app.py:201 - done
+2024-08-08 23:18:51,375 - INFO - main_app.py:178 - Starting the application
+2024-08-08 23:19:27,567 - INFO - main_app.py:183 - error db number: 0
+
+2024-08-08 23:19:27,567 - INFO - main_app.py:201 - done
+2024-08-08 23:19:58,616 - INFO - main_app.py:178 - Starting the application

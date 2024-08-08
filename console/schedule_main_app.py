@@ -6,6 +6,7 @@ from datetime import datetime
 import sys
 import threading
 from config import Config
+from utils import file_utils
 
 
 class JobTimeoutError(Exception):
@@ -71,26 +72,27 @@ def get_last_done() -> datetime:
 
 
 def job():
-    try:
-        last_run_bool = read_error_file(file_name=LAST_RUN_FILE_NAME)
-        check_crash_bool = read_error_file(file_name=CHECK_CRASH_FILE_NAME)
+    last_run_bool = read_error_file(file_name=LAST_RUN_FILE_NAME)
+    check_crash_bool = read_error_file(file_name=CHECK_CRASH_FILE_NAME)
 
-        if last_run_bool or check_crash_bool:
-            subprocess.check_output(
-                [sys.executable, "main_app.py", '--error'], timeout=Config.JOB_TIMEOUT)
+    cp_time = datetime.fromtimestamp(file_utils.get_checkpoint())
+    now = datetime.now()
+    interval = now - cp_time
 
-            if last_run_bool:
-                write_error_file(False, file_name=LAST_RUN_FILE_NAME)
+    if last_run_bool or check_crash_bool or interval.seconds > Config.JOB_TIMEOUT:
+        subprocess.check_output(
+            [sys.executable, "main_app.py", '--error'])
 
-            if check_crash_bool:
-                write_error_file(False, file_name=CHECK_CRASH_FILE_NAME)
+        if last_run_bool:
+            write_error_file(False, file_name=LAST_RUN_FILE_NAME)
 
-        else:
-            subprocess.check_output(
-                [sys.executable, "main_app.py"], timeout=Config.JOB_TIMEOUT)
+        if check_crash_bool:
+            write_error_file(False, file_name=CHECK_CRASH_FILE_NAME)
 
-    except subprocess.TimeoutExpired:
-        raise JobTimeoutError(f'App run timeout ({Config.JOB_TIMEOUT}s)')
+    else:
+        subprocess.check_output(
+            [sys.executable, "main_app.py"])
+
 
 def main():
     while True:
@@ -98,11 +100,6 @@ def main():
             job()
             save_check_point()
             time.sleep(Config.LOOP_JOB_INTERVAL)
-        except JobTimeoutError as e:
-            print(str(e))
-            last_done = get_last_done()
-            save_check_point(last_done)
-            write_error_file(True)
         except KeyboardInterrupt:
             save_check_point()
             write_error_file(True, file_name=CHECK_CRASH_FILE_NAME)

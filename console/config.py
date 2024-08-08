@@ -9,4 +9,5 @@ class Config:
     ERROR_INVOICE_FOLDER = "error_invoice"
     APP_LOG_FOLDER = "applog"
     LOOP_JOB_INTERVAL = 30
-    JOB_TIMEOUT = 300
+    JOB_TIMEOUT = 2*60*60
+    JOB_TIMEOUT = 20

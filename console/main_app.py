@@ -1,3 +1,4 @@
+import io
 import json
 import sys
 import psycopg2
@@ -11,7 +12,7 @@ from sqlalchemy import create_engine
 from constants import *
 from datetime import datetime as dt
 import logging
-from telegram_ import send_telegram_message
+from telegram_ import send_telegram_message, send_telegram_document
 from utils import file_utils
 
 logger = logging.getLogger(__name__)
@@ -21,10 +22,12 @@ is_use_sql_error = '--error' in sys.argv
 
 os.makedirs(Config.APP_LOG_FOLDER, exist_ok=True)
 
-file_handler = logging.FileHandler(os.path.join(Config.APP_LOG_FOLDER, "applog.txt"))
+file_handler = logging.FileHandler(
+    os.path.join(Config.APP_LOG_FOLDER, "applog.txt"))
 
 file_handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s")
+formatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s")
 file_handler.setFormatter(formatter)
 
 console_handler = logging.StreamHandler()
@@ -38,6 +41,7 @@ def format_file_name():
     now = str(dt.now())
     dot_index = now.rfind('.')
     return now[:dot_index].replace(' ', '_').replace('-', '').replace(':', '-')
+
 
 def get_warnings():
     def get_info(host_slave, item: str) -> dict:
@@ -63,7 +67,6 @@ def get_warnings():
         with open(f"resources/sql/{filename}") as sql_file:
             sending_tax = sql_file.read()
 
-
         try:
             with open("connectstring_config.json") as fo:
                 ans = json.load(fo)
@@ -79,10 +82,11 @@ def get_warnings():
                 DATABASE_URI = f'postgresql://{user}:{encoded_password}@{host}:{port}/{database}'
 
                 try:
-                    
+
                     engine = create_engine(DATABASE_URI)
                     with engine.connect() as conn:
-                        querry_error_sending_tax = sending_tax.replace('?', tenant_id)
+                        querry_error_sending_tax = sending_tax.replace(
+                            '?', tenant_id)
                         if is_use_sql_error:
                             checkpoint = file_utils.get_checkpoint()
                             querry_error_sending_tax = querry_error_sending_tax.replace(
@@ -103,7 +107,7 @@ def get_warnings():
             cur = conn.cursor()
             cur.execute(tenant_sql)
             ans = {}
-            
+
             for tenantid, _, connectionstring in cur:
                 if HOST_MASTER_1 in connectionstring:
                     ans[tenantid] = get_info(HOST_SLAVE_1, connectionstring)
@@ -133,11 +137,12 @@ def get_warnings():
                 DATABASE_URI = f'postgresql://{user}:{encoded_password}@{host}:{port}/{database}'
 
                 try:
-                    
+
                     engine = create_engine(DATABASE_URI)
                     with engine.connect() as conn:
                         for ten_id in tenant_ids:
-                            querry_sending_tax = sending_tax.replace('?', ten_id)
+                            querry_sending_tax = sending_tax.replace(
+                                '?', ten_id)
                             df = pd.read_sql_query(querry_sending_tax, conn)
                             result.append(df)
                 except Exception as e:
@@ -150,8 +155,8 @@ def get_warnings():
                 engine = create_engine(Config.DATABASE_URI)
 
                 with engine.connect() as conn:
-                    tenant_ids_cloud = pd.read_sql_query(sending_tax_cloud, conn)
-
+                    tenant_ids_cloud = pd.read_sql_query(
+                        sending_tax_cloud, conn)
 
                 with engine.connect() as conn:
                     for ten_id in tenant_ids_cloud['Id'].astype(str):
@@ -167,7 +172,8 @@ def get_warnings():
 
     except Exception as e:
         return "Không thể kết nối tới database: " + str(e)
-    
+
+
 try:
     logger.info("Starting the application")
 
@@ -187,7 +193,8 @@ try:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
-        send_telegram_message('5620188377', file_path)
+        with open(file_path, "r", encoding="utf-8") as f:
+            send_telegram_document(6720464969, f)
 
     logger.info("done")
     with open(os.path.join(Config.APP_LOG_FOLDER, 'done.txt'), mode='w') as f:
