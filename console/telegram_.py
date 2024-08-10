@@ -12,7 +12,7 @@ class TelegramThread(threading.Thread):
 
         self.app = Application.builder()\
             .token(
-            "7237395240:AAFWq-pF8ZS4GTHk0bg3Ox-a7sJa5gttFIA")\
+            "7442253777:AAGdNFpx7xSx9xA2Uqo65X3FFMNQlMTo9zQ")\
             .build()
         self.loop = asyncio.new_event_loop()
 

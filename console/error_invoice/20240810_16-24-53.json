@@ -1,0 +1,72 @@
+[
+    {
+        "TaxCode": "0106026495-998",
+        "SellerLegalName": "CÔNG TY TNHH HÓA ĐƠN ĐIỆN TỬ M-INVOICE",
+        "SendingInvoice": 75
+    },
+    {
+        "TaxCode": "0106026495-998",
+        "SellerLegalName": "M-INVOICE - KIỂM THỬ HĐĐT KHÔNG MÃ",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0106026495-998",
+        "SellerLegalName": "M-INVOICE - KIỂM THỬ HĐĐT KHÔNG MÃ &",
+        "SendingInvoice": 4
+    },
+    {
+        "TaxCode": "0106026495-998",
+        "SellerLegalName": "M-INVOICE KIỂM THỬ HÓA ĐƠN CÓ MÃ",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0106026495-999",
+        "SellerLegalName": "CÔNG TY TNHH HÓA ĐƠN ĐIỆN TỬ M-INVOICE",
+        "SendingInvoice": 3
+    },
+    {
+        "TaxCode": "0106026495-999",
+        "SellerLegalName": "CÔNG TY TNHH HÓA ĐƠN ĐIỆN TỬ M-INVOICE - KIỂM THỬ ỨNG DỤNG",
+        "SendingInvoice": 3
+    },
+    {
+        "TaxCode": "0106112641",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN XÂY DỰNG VÀ PHÁT TRIỂN EURO HOME",
+        "SendingInvoice": 3
+    },
+    {
+        "TaxCode": "0316488697",
+        "SellerLegalName": "CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ HIỆP PHƯỚC",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0109447300",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI XNK VƯỢNG THÀNH",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0313497527",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN CHEZ NOUS",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "0107748461",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ SẢN XUẤT HAPPY FRUIT",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0108525556",
+        "SellerLegalName": "CÔNG TY TNHH  THƯƠNG MẠI XUẤT NHẬP KHẨU NGUYỆT VƯỢNG",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0106520249",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ PHÁT TRIỂN TAKUMI VIỆT NAM",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0313497527-001",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY CỔ PHẦN CHEZ NOUS",
+        "SendingInvoice": 3
+    }
+]

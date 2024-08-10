@@ -194,7 +194,7 @@ try:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         with open(file_path, "r", encoding="utf-8") as f:
-            send_telegram_document(6720464969, f)
+            send_telegram_document('-4222451165', f, os.path.basename(file_path))
 
     logger.info("done")
     with open(os.path.join(Config.APP_LOG_FOLDER, 'done.txt'), mode='w') as f:
