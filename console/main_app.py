@@ -1,4 +1,3 @@
-import io
 import json
 import sys
 import psycopg2
@@ -12,8 +11,9 @@ from sqlalchemy import create_engine
 from constants import *
 from datetime import datetime as dt
 import logging
-from telegram_ import send_telegram_message, send_telegram_document
+from telegram_ import send_telegram_document
 from utils import file_utils
+import traceback
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -128,7 +128,7 @@ def get_warnings():
             for db_info, tenant_ids in out.items():
                 db = dict(db_info)
 
-                database = db["Database"]
+                database = db["Database"].strip()
                 user = db["User ID"]
                 password = db["Password"]
                 host = db["Host"]
@@ -143,10 +143,14 @@ def get_warnings():
                         for ten_id in tenant_ids:
                             querry_sending_tax = sending_tax.replace(
                                 '?', ten_id)
+                            checkpoint = file_utils.get_checkpoint()
+                            querry_sending_tax = querry_sending_tax.replace(
+                                "checkpoint", dt.fromtimestamp(checkpoint).isoformat())
                             df = pd.read_sql_query(querry_sending_tax, conn)
                             result.append(df)
                 except Exception as e:
-                    db_errors.append(DATABASE_URI)
+                    traceback.print_exc()
+                    db_errors.append(f"{DATABASE_URI}: {e}")
                     count += 1
 
                 time.sleep(3)
@@ -164,8 +168,8 @@ def get_warnings():
                         df = pd.read_sql_query(querry_sending_tax, conn)
                         result.append(df)
             except Exception as e:
-                print(e)
-                db_errors.append(Config.DATABASE_URI)
+                traceback.print_exc()
+                db_errors.append(f"{DATABASE_URI}: {e}")
                 count += 1
 
         return result, db_errors, count
