@@ -1,0 +1,58 @@
+{
+    "3a0fbc25-c801-03ce-2810-caf5aac94cab": {
+      "Database": "0100237411",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0ffa01-1397-d0b8-0990-0ee301e724fc": {
+      "Database": "2300104684",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a13f160-59fe-bf4d-9f3c-0373d65c09fe": {
+      "Database": "0400367002",
+      "Host": "10.10.12.21",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0fffb7-56d0-7755-5348-b17b8756e502": {
+      "Database": "0104915756-001",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0ea11e-09c2-925d-22c4-0e8764587a3e": {
+      "Database": "0306340691-006",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0ea11f-2d1f-4dc3-ba10-d0b3974a7d03": {
+      "Database": "0306340691-013",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0f4b7f-b9c5-ff64-eb47-d8237b41ca8f": {
+      "Database": "0306340691-009",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    },
+    "3a0a4949-1f9a-f692-8208-b67bef423498": {
+      "Database": "0306340691-010",
+      "Host": "10.10.12.4",
+      "Password": "Jarvis@123!@#",
+      "Port": "5432",
+      "User ID": "postgres"
+    }
+  }

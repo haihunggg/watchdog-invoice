@@ -1,72 +1,58 @@
 {
-  "3a05ae9d-c127-c3bb-9001-e6aca3b775b5": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0fbc25-c801-03ce-2810-caf5aac94cab": {
+    "Database": "0100237411",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a05aea7-07d5-87dc-0bcc-dd59b947b261": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0ffa01-1397-d0b8-0990-0ee301e724fc": {
+    "Database": "2300104684",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a0634d6-767a-01fe-4342-6b8c89a67654": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a13f160-59fe-bf4d-9f3c-0373d65c09fe": {
+    "Database": "0400367002",
+    "Host": "10.10.12.21",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a06c2ae-987d-7202-7634-374c3fcebf7f": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0fffb7-56d0-7755-5348-b17b8756e502": {
+    "Database": "0104915756-001",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a070c20-3031-5fc0-fd4f-8426b5e7d83c": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0ea11e-09c2-925d-22c4-0e8764587a3e": {
+    "Database": "0306340691-006",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a076760-b15f-d533-c98c-4e71dfeaf83c": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0ea11f-2d1f-4dc3-ba10-d0b3974a7d03": {
+    "Database": "0306340691-013",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a07b49f-d910-5ed0-22a8-5c052020b739": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0f4b7f-b9c5-ff64-eb47-d8237b41ca8f": {
+    "Database": "0306340691-009",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   },
-  "3a07f4e7-6728-2bb9-e536-cb602cf8d108": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
+  "3a0a4949-1f9a-f692-8208-b67bef423498": {
+    "Database": "0306340691-010",
+    "Host": "10.10.12.4",
+    "Password": "Jarvis@123!@#",
     "Port": "5432",
-    "User ID": "minvoice"
-  },
-  "3a08072b-2df7-2fd3-689a-46d490621ae5": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
-    "Port": "5432",
-    "User ID": "minvoice"
-  },
-  "3a081748-ee9c-2ec4-a3de-ceebaf2007c0": {
-    "Database": "MinvoiceCloud",
-    "Host": "103.61.122.194",
-    "Password": "Minvoice@123",
-    "Port": "5432",
-    "User ID": "minvoice"
+    "User ID": "postgres"
   }
 }

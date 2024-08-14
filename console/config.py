@@ -2,12 +2,11 @@ from urllib.parse import quote_plus
 
 
 class Config:
-    user = "minvoice"
-    password = "Minvoice@123"
+    user = "postgres"
+    password = "Jarvis@123!@#"
     encoded_password = quote_plus(password)
-    DATABASE_URI = f'postgresql://{user}:{encoded_password}@103.61.122.194:5432/MinvoiceCloud'
+    DATABASE_URI = f'postgresql://{user}:{encoded_password}@10.10.12.4:5432/MinvoiceCloud'
     ERROR_INVOICE_FOLDER = "error_invoice"
     APP_LOG_FOLDER = "applog"
-    LOOP_JOB_INTERVAL = 30
+    LOOP_JOB_INTERVAL = 3600
     JOB_TIMEOUT = 2*60*60
-    # JOB_TIMEOUT = 20

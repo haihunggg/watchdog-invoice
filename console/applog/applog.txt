@@ -7,3 +7,11 @@ postgresql://minvoice:Minvoice%40123@103.61.122.194:5432/MinvoiceCloud
 2024-08-13 14:45:48,675 - INFO - main_app.py:187 - error db number: 0
 
 2024-08-13 14:45:54,504 - INFO - main_app.py:203 - done
+2024-08-14 11:39:14,704 - INFO - main_app.py:182 - Starting the application
+2024-08-14 11:39:46,477 - INFO - main_app.py:187 - error db number: 0
+
+2024-08-14 11:39:46,485 - INFO - main_app.py:203 - done
+2024-08-14 11:42:14,942 - INFO - main_app.py:182 - Starting the application
+2024-08-14 11:43:53,316 - INFO - main_app.py:187 - error db number: 0
+
+2024-08-14 11:43:55,254 - INFO - main_app.py:203 - done
