@@ -4,7 +4,6 @@ SELECT
     a."Value"
 FROM "public"."AbpTenantConnectionStrings" a 
 JOIN "AbpTenants" b 
-on b."Id" = a."TenantId"
-limit 5;
+on b."Id" = a."TenantId";
 
 
