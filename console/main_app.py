@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 is_use_sql_error = '--error' in sys.argv
+print(is_use_sql_error)
 
 os.makedirs(Config.APP_LOG_FOLDER, exist_ok=True)
 

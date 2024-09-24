@@ -6,7 +6,7 @@ FROM
     "MInvoice"."Invoice" 
 WHERE 
     "TenantId"='?'
-    AND "CreationTime" >= NOW()  - INTERVAL '6 hours'
+    AND "CreationTime" >= NOW()  - INTERVAL '12 hours'
     and "SendTaxStatus"=3
 GROUP BY 
     "SellerLegalName",

@@ -1,0 +1,22 @@
+[
+    {
+        "TaxCode": "1001252851",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ QUẢN LÝ KHÁCH SẠN TNH THÁI BÌNH",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "4200448170",
+        "SellerLegalName": "DOANH NGHIỆP TƯ NHÂN XĂNG DẦU NINH AN",
+        "SendingInvoice": 5
+    },
+    {
+        "TaxCode": "4300298306-006",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VẬN TẢI XĂNG DẦU VẠN LỢI TẠI ĐÀ NẴNG",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0106536425-002",
+        "SellerLegalName": "CHI NHÁNH HƯNG YÊN - CÔNG TY CỔ PHẦN THÁI MINH GROUP",
+        "SendingInvoice": 1
+    }
+]

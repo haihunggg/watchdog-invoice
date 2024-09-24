@@ -1,0 +1,87 @@
+[
+    {
+        "TaxCode": "0101011181",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN SẢN XUẤT VÀ DỊCH VỤ DỆT MAY",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0108768608",
+        "SellerLegalName": "CÔNG TY TNHH ATP THÁI DƯƠNG",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0107161377-001",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY CỔ PHẦN KỸ THUẬT SỐ SBC",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "6100187828",
+        "SellerLegalName": "CÔNG TY TNHH MỘT THÀNH VIÊN XĂNG DẦU VIỆT TƯỜNG",
+        "SendingInvoice": 4
+    },
+    {
+        "TaxCode": "2900491266",
+        "SellerLegalName": "CÔNG TY TNHH THANH THÀNH ĐẠT",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0306340691-009",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY TNHH THỰC PHẨM TÂN VIỆT NHẬT",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "1100415137",
+        "SellerLegalName": "CÔNG TY TNHH XĂNG DẦU PHƯỚC TOÀN",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0110134246",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ CHEF & BROTHERS",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0104673539",
+        "SellerLegalName": "CÔNG TY TNHH CHUỖI NHÀ HÀNG ROXA",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0110146805",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN DỊCH VỤ THƯƠNG MẠI HADU",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0306340691-010",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY TNHH THỰC PHẨM TÂN VIỆT NHẬT TẠI HÀ NỘI",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "8002946809",
+        "SellerLegalName": "PHAN THỊ HƯƠNG",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0109129611",
+        "SellerLegalName": "CÔNG TY TNHH BÁN LẺ SAMMISHOP",
+        "SendingInvoice": 3
+    },
+    {
+        "TaxCode": "0306049362",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ CUỘC SỐNG CỦA TÔI",
+        "SendingInvoice": 4
+    },
+    {
+        "TaxCode": "0317023126-001",
+        "SellerLegalName": "CHI NHÁNH 1 TẠI HÀ NỘI - CÔNG TY TNHH DỊCH VỤ ĂN UỐNG RỒNG THÁI",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "5901123119",
+        "SellerLegalName": "CÔNG TY TNHH MỘT THÀNH VIÊN LONG TRỌNG GIA LAI",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "8448144841-001",
+        "SellerLegalName": "HỘ KINH DOANH ÔNG TRẺ FOOD & BEER",
+        "SendingInvoice": 1
+    }
+]

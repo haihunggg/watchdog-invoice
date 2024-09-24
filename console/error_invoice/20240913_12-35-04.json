@@ -1,0 +1,57 @@
+[
+    {
+        "TaxCode": "1101834250",
+        "SellerLegalName": "CÔNG TY TNHH MỘT THÀNH VIÊN BA TRIỆU TOÀN",
+        "SendingInvoice": 11
+    },
+    {
+        "TaxCode": "0100237411",
+        "SellerLegalName": "CÔNG TY TNHH DU LỊCH VÀ THƯƠNG MẠI SÔNG HỒNG",
+        "SendingInvoice": 4
+    },
+    {
+        "TaxCode": "0100630710",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI XĂNG DẦU MINH HỒNG",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "4200448170",
+        "SellerLegalName": "DOANH NGHIỆP TƯ NHÂN XĂNG DẦU NINH AN",
+        "SendingInvoice": 31
+    },
+    {
+        "TaxCode": "1100415137",
+        "SellerLegalName": "CÔNG TY TNHH XĂNG DẦU PHƯỚC TOÀN",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "0106536425-001",
+        "SellerLegalName": "CHI NHÁNH HẢI DƯƠNG - CÔNG TY CỔ PHẦN THÁI MINH GROUP",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0314506125-002",
+        "SellerLegalName": "CHI NHÁNH CÔNG TY TNHH TM DV N.M.A SÀI GÒN - NHÀ HÀNG LUX68 RESTAURANT",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "0107742477",
+        "SellerLegalName": "CÔNG TY CP TẦM NHÌN QUỐC TẾ ALADDIN",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0306049362",
+        "SellerLegalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ CUỘC SỐNG CỦA TÔI",
+        "SendingInvoice": 3
+    },
+    {
+        "TaxCode": "0300170186",
+        "SellerLegalName": "HỘ KINH DOANH NHƯ LAN",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "0318145712",
+        "SellerLegalName": "CÔNG TY TNHH MƯỜI SÁU GRAMS",
+        "SendingInvoice": 1
+    }
+]

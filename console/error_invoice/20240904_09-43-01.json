@@ -1,0 +1,17 @@
+[
+    {
+        "TaxCode": "0202105372",
+        "SellerLegalName": "CÔNG TY CỔ PHẦN THÀNH ĐẠI PMH",
+        "SendingInvoice": 2
+    },
+    {
+        "TaxCode": "0106536425-002",
+        "SellerLegalName": "CHI NHÁNH HƯNG YÊN - CÔNG TY CỔ PHẦN THÁI MINH GROUP",
+        "SendingInvoice": 1
+    },
+    {
+        "TaxCode": "0500496650",
+        "SellerLegalName": "DOANH NGHIỆP TƯ NHÂN PHÚC LÂM",
+        "SendingInvoice": 1
+    }
+]
